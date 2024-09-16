@@ -14,9 +14,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col lg:flex-row justify-between px-4">
         {/* Logo and Social Links */}
         <div className="flex flex-col items-start mb-8 lg:mb-0 lg:w-1/4">
-          <span className="text-[#F7D756] text-5xl pb-2 underline">
-            Fintex
-          </span>
+          <span className="text-[#F7D756] text-5xl pb-2 underline">Fintex</span>
           <div className="flex space-x-4 mb-6">
             <a
               href="#"
@@ -44,15 +42,9 @@ const Footer = () => {
             </a>
           </div>
           <span className="text-gray-400">
-            <p>
-            Address: Block No 26, First Floor,
-            </p> 
-            <p>
-            Navkar Plaza, Waki Road, Jamner,
-            </p>
-             <p>
-             Dist-Jalgaon. 424206 (IN-MH)
-             </p>
+            <p>Address: Block No 26, First Floor,</p>
+            <p>Navkar Plaza, Waki Road, Jamner,</p>
+            <p>Dist-Jalgaon. 424206 (IN-MH)</p>
           </span>
         </div>
 
@@ -84,7 +76,7 @@ const Footer = () => {
             href="mailto:mailme@gmail.com"
             className="text-white hover:text-[#F7D756] transition-colors flex items-center"
           >
-            <MdAttachEmail className="mr-2"/>
+            <MdAttachEmail className="mr-2" />
             mailme@gmail.com
           </a>
           <div className="mt-4 text-gray-300">
@@ -93,6 +85,30 @@ const Footer = () => {
             <p>Saturday: 10:00 AM – 4:00 PM</p>
             <p>Sunday: Closed</p>
           </div>
+        </div>
+
+        {/* Developer Section */}
+        <div className="lg:w-1/4 mb-8 lg:mb-0">
+          <h6 className="text-xl font-semibold mb-4">Developer</h6>
+          <p className="text-gray-300">
+            This website was developed by{" "}
+            <a
+              href="https://github.com/sachinrathod"
+              target="_blank"
+              className="text-white hover:text-[#F7D756] transition-colors underline"
+            >
+              Sachin Rathod
+            </a>
+            , a passionate MERN stack developer. Check out more of his work on{" "}
+            <a
+              href="https://github.com/SachinNic1502/"
+              target="_blank"
+              className="text-white hover:text-[#F7D756] transition-colors underline"
+            >
+              GitHub
+            </a>
+            .
+          </p>
         </div>
       </div>
 
